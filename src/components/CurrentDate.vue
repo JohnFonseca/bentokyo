@@ -9,7 +9,7 @@ const mm = ref('');
 const dd = ref('');
 
 const displayDate = () => {
-  const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  const monthNames = ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'];
 
   const date = new Date();
   mm.value = `${monthNames[date.getMonth()]} `;
