@@ -64,14 +64,14 @@ export const config: Config = {
   layout: 'bento', // 'bento', 'lists', 'buttons'
 
   // Weather
-  weatherKey: '57214529446044c57711b87cd7ae05af', // Set your OpenWeatherMap key in .env - Move the included .env.example to .env
+  weatherKey: import.meta.env.VITE_API_KEY, // Set your OpenWeatherMap key in .env - Move the included .env.example to .env
   weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
-  language: 'pt_br', // More languages in https://openweathermap.org/current#multi
+  language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // Request location from the browser. If false, or location is denied, use the coordinates below.
-  defaultLatitude: '-22.652852',
-  defaultLongitude: '-43.038560',
+  defaultLatitude: '37.775',
+  defaultLongitude: '-122.419',
 
   // Automatic theme switching:
   // "system" - Switches based on OS color preference
@@ -89,11 +89,11 @@ export const config: Config = {
   // Disabling the weather component may cause issues with location-based light/dark switching.
   componentsEnabled: {
     searchBar: false,
-    themeButton: false,
-    clock: true,
-    greeter: true,
-    date: true,
-    weather: true,
+    themeButton: true,
+    clock: false,
+    greeter: false,
+    date: false,
+    weather: false,
   },
 
   // Buttons
@@ -177,12 +177,12 @@ export const config: Config = {
         icon: 'music', // Icon for the list to use. The same as the buttons.
         links: [
           {
-          name: 'Post-Rock',
-					link: 'https://www.youtube.com/watch?v=MRhplCpkPKE',
+          name: 'Synthwave',
+					link: 'https://www.youtube.com/watch?v=4xDzrJKXOOY',
 				},
 				{
-					name: 'Synthwave',
-					link: 'https://www.youtube.com/watch?v=4xDzrJKXOOY',
+					name: 'Post-Rock',
+					link: 'https://www.youtube.com/watch?v=MRhplCpkPKE',
 				},
 				{
 					name: 'Lofi',
