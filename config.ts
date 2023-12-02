@@ -45,7 +45,7 @@ export const config: Config = {
     'monokai',
     'nord',
     'sakura',
-    'solarized'
+    'solarized',
     'tokyo-night',
   ],
 
