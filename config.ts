@@ -118,7 +118,7 @@ export const config: Config = {
       },
       {
         name: 'Outlook',
-        icon: 'fab-envelope',
+        icon: 'envelope',
         url: 'https://outlook.live.com/mail/0/',
       },
       {
@@ -128,7 +128,7 @@ export const config: Config = {
       },
       {
         name: 'Roll20',
-        icon: 'fab-dice-d20',
+        icon: 'dice-d20',
         url: 'https://roll20.net/welcome',
       },
     ],
@@ -174,7 +174,7 @@ export const config: Config = {
     // If you're using the 'bento' layout, this is the only group that will be used.
     [
       {
-        icon: 'fab-music', // Icon for the list to use. The same as the buttons.
+        icon: 'music', // Icon for the list to use. The same as the buttons.
         links: [
           {
           name: 'Post-Rock',
@@ -195,7 +195,7 @@ export const config: Config = {
         ],
       },
       {
-        icon: 'fab-mug-hot',
+        icon: 'mug-hot',
         links: [
           {
           name: 'Mangadex',
