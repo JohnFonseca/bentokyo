@@ -102,11 +102,6 @@ export const config: Config = {
     // If you're using the 'bento' layout, this is the only group that will be used.
     [
       {
-        name: 'Discord', // set the name of the card
-        icon: 'fab-discord', // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
-        url: 'https://discord.com/channels/@me', // provide a link to the page.
-      },
-      {
         name: 'Youtube',
         icon: 'fab-youtube',
         url: 'https://www.youtube.com/',
@@ -125,6 +120,11 @@ export const config: Config = {
         name: 'Pinterest',
         icon: 'fab-pinterest',
         url: 'https://br.pinterest.com/',
+      },
+	{
+        name: 'Discord', // set the name of the card
+        icon: 'fab-discord', // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
+        url: 'https://discord.com/channels/@me', // provide a link to the page.
       },
       {
         name: 'Roll20',
