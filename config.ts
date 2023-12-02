@@ -45,7 +45,8 @@ export const config: Config = {
     'monokai',
     'nord',
     'sakura',
-    'solarized',
+    'solarized'
+    'tokyo-night',
   ],
 
   // Search Bar
@@ -55,30 +56,29 @@ export const config: Config = {
   autoFocusBar: true,
 
   // Greetings
-  greetingMorning: 'Good morning,',
-  greetingAfternoon: 'Good afternoon,',
-  greetingEvening: 'Good evening,',
-  greetingNight: 'Sweet dreams,',
-
+  greetingMorning: 'Bom dia,',
+	greetingAfternoon: 'Boa tarde,',
+	greetingEvening: 'Boa noite,',
+	greetingNight: 'Bons sonhos,',
   // Layout
   layout: 'bento', // 'bento', 'lists', 'buttons'
 
   // Weather
-  weatherKey: import.meta.env.VITE_API_KEY, // Set your OpenWeatherMap key in .env - Move the included .env.example to .env
+  weatherKey: import.meta.env.57214529446044c57711b87cd7ae05af, // Set your OpenWeatherMap key in .env - Move the included .env.example to .env
   weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
-  language: 'en', // More languages in https://openweathermap.org/current#multi
+  language: 'pt_br', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // Request location from the browser. If false, or location is denied, use the coordinates below.
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  defaultLatitude: '-22.652852',
+  defaultLongitude: '-43.038560',
 
   // Automatic theme switching:
   // "system" - Switches based on OS color preference
   // "location" - Switches based on local sunrise/sunset (requires OpenWeatherMap API key)
   // "preset" - Switches based on set hours
   // "none" - No automatic switching
-  autoTheme: 'system',
+  autoTheme: 'none',
 
   // If autoTheme is set to "preset", set the hours below.
   darkModeOnTime: '18:30',
@@ -88,8 +88,8 @@ export const config: Config = {
   // If themeButton is set to false, the theme can only be set in this file.
   // Disabling the weather component may cause issues with location-based light/dark switching.
   componentsEnabled: {
-    searchBar: true,
-    themeButton: true,
+    searchBar: false,
+    themeButton: false,
     clock: true,
     greeter: true,
     date: true,
@@ -102,34 +102,34 @@ export const config: Config = {
     // If you're using the 'bento' layout, this is the only group that will be used.
     [
       {
-        name: 'Github', // set the name of the card
-        icon: 'fab-github', // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
-        url: 'https://github.com/', // provide a link to the page.
+        name: 'Discord', // set the name of the card
+        icon: 'fab-discord', // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
+        url: 'https://discord.com/channels/@me', // provide a link to the page.
       },
       {
-        name: 'Mail',
-        icon: 'envelope',
-        url: 'https://mail.protonmail.com/',
-      },
-      {
-        name: 'Todoist',
-        icon: 'list-ol',
-        url: 'https://todoist.com',
-      },
-      {
-        name: 'Calendar',
-        icon: 'calendar',
-        url: 'https://calendar.google.com/calendar/r',
+        name: 'Youtube',
+        icon: 'fab-youtube',
+        url: 'https://www.youtube.com/',
       },
       {
         name: 'Reddit',
-        icon: 'fab-reddit',
-        url: 'https://reddit.com',
+        icon: 'fab-reddit-alien',
+        url: 'https://www.reddit.com/',
       },
       {
-        name: 'Odysee',
-        icon: 'fab-youtube',
-        url: 'https://odysee.com/',
+        name: 'Outlook',
+        icon: 'fab-envelope',
+        url: 'https://outlook.live.com/mail/0/',
+      },
+      {
+        name: 'Pinterest',
+        icon: 'fab-pinterest',
+        url: 'https://br.pinterest.com/',
+      },
+      {
+        name: 'Roll20',
+        icon: 'fab-dice-d20',
+        url: 'https://roll20.net/welcome',
       },
     ],
     // Second buttons group
@@ -174,44 +174,44 @@ export const config: Config = {
     // If you're using the 'bento' layout, this is the only group that will be used.
     [
       {
-        icon: 'music', // Icon for the list to use. The same as the buttons.
+        icon: 'fab-music', // Icon for the list to use. The same as the buttons.
         links: [
           {
-            name: 'Inspirational', // Display text for the link
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', // URL to the page
-          },
-          {
-            name: 'Classic',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-          },
-          {
-            name: 'Oldies',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-          },
-          {
-            name: 'Rock',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'Post-Rock',
+					link: 'https://www.youtube.com/watch?v=MRhplCpkPKE',
+				},
+				{
+					name: 'Synthwave',
+					link: 'https://www.youtube.com/watch?v=4xDzrJKXOOY',
+				},
+				{
+					name: 'Lofi',
+					link: 'https://www.youtube.com/watch?v=jfKfPfyJRdk',
+				},
+				{
+					name: 'NCS',
+					link: 'https://www.youtube.com/watch?v=MsSrIlOi81o',
           },
         ],
       },
       {
-        icon: 'coffee',
+        icon: 'fab-mug-hot',
         links: [
           {
-            name: 'Linkedin',
-            url: 'https://www.linkedin.com',
-          },
-          {
-            name: 'Dribbble',
-            url: 'https://www.dribbble.com',
-          },
-          {
-            name: 'Trello',
-            url: 'https://www.trello.com',
-          },
-          {
-            name: 'Slack',
-            url: 'https://www.slack.com',
+          name: 'Mangadex',
+					link: 'https://mangadex.org/',
+				},
+				{
+					name: 'Flatout!',
+					link: 'https://flatout.com.br/',
+				},
+				{
+					name: 'Netflix',
+					link: 'https://www.netflix.com/browse',
+				},
+				{
+					name: 'Animes',
+					link: 'https://animesonlinecc.to/',
           },
         ],
       },
