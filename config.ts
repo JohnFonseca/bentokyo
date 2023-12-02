@@ -185,12 +185,12 @@ export const config: Config = {
 					link: 'https://www.youtube.com/watch?v=MRhplCpkPKE',
 				},
 				{
-					name: 'Lofi',
-					link: 'https://www.youtube.com/watch?v=jfKfPfyJRdk',
-				},
-				{
 					name: 'NCS',
 					link: 'https://www.youtube.com/watch?v=MsSrIlOi81o',
+				},
+				{
+					name: 'Lofi',
+					link: 'https://www.youtube.com/watch?v=jfKfPfyJRdk',
           },
         ],
       },
@@ -206,12 +206,12 @@ export const config: Config = {
 					link: 'https://flatout.com.br/',
 				},
 				{
-					name: 'Netflix',
-					link: 'https://www.netflix.com/browse',
-				},
-				{
 					name: 'Animes',
 					link: 'https://animesonlinecc.to/',
+				},
+				{
+					name: 'Netflix',
+					link: 'https://www.netflix.com/browse',
           },
         ],
       },
