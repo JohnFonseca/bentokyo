@@ -1,9 +1,9 @@
 :root {
   /* Light Colors  */
 
-  --background: #1a1b26; /* Background color */
-  --accent: #1d1e29; /* Hover color */
-  --cards: #171722; /* Cards color */
+  --background: #16161e; /* Background color */
+  --accent: #202437; /* Hover color */
+  --cards: #1a1b26; /* Cards color */
 
   /* Fonts Color */
   --fg: #565f89; /* Foreground color */
@@ -15,7 +15,7 @@
   /* Dark Colors  */
 
   --darkbackground: #16161e; /* Background color */
-  --darkaccent: #1d1e29; /* Hover color */
+  --darkaccent: #202437; /* Hover color */
   --darkcards: #171722; /* Cards color */
 
   /* Fonts Color */
