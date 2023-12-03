@@ -46,7 +46,7 @@ export const config: Config = {
     'nord',
     'sakura',
     'solarized',
-    'tokyo-night',
+    'tokyo-night', // dark mode only
   ],
 
   // Search Bar
@@ -89,7 +89,7 @@ export const config: Config = {
   // Disabling the weather component may cause issues with location-based light/dark switching.
   componentsEnabled: {
     searchBar: false,
-    themeButton: true,
+    themeButton: false,
     clock: false,
     greeter: false,
     date: false,
