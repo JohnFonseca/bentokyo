@@ -28,7 +28,7 @@ export const config: Config = {
   },
 
   // Theme
-  theme: 'bento',
+  theme: 'arc',
 
   // Place a background image in ./src/assets/images/ and provide the file name.
   // Alternatively, provide a URL to an image. If the page is served over https, you may have issues loading images from insecure origins.
@@ -177,20 +177,20 @@ export const config: Config = {
         icon: 'music', // Icon for the list to use. The same as the buttons.
         links: [
           {
-          name: 'Synthwave',
-					link: 'https://www.youtube.com/watch?v=4xDzrJKXOOY',
-				},
-				{
-					name: 'Post-Rock',
-					link: 'https://www.youtube.com/watch?v=MRhplCpkPKE',
-				},
-				{
-					name: 'NCS',
-					link: 'https://www.youtube.com/watch?v=MsSrIlOi81o',
-				},
-				{
-					name: 'Lofi',
-					link: 'https://www.youtube.com/watch?v=jfKfPfyJRdk',
+            name: 'Synthwave',
+	    url: 'https://www.youtube.com/watch?v=4xDzrJKXOOY',
+	  },
+	  {
+	    name: 'Post-Rock',
+	    url: 'https://www.youtube.com/watch?v=MRhplCpkPKE',
+	  },
+	  {
+	    name: 'NCS',
+	    url: 'https://www.youtube.com/watch?v=MsSrIlOi81o',
+	  },
+          {
+	    name: 'Lofi',
+	    url: 'https://www.youtube.com/watch?v=jfKfPfyJRdk',
           },
         ],
       },
@@ -198,20 +198,20 @@ export const config: Config = {
         icon: 'mug-hot',
         links: [
           {
-          name: 'Mangadex',
-					link: 'https://mangadex.org/',
-				},
-				{
-					name: 'Flatout!',
-					link: 'https://flatout.com.br/',
-				},
-				{
-					name: 'Animes',
-					link: 'https://animesonlinecc.to/',
-				},
-				{
-					name: 'Netflix',
-					link: 'https://www.netflix.com/browse',
+            name: 'Mangadex',
+	    url: 'https://mangadex.org/',
+	  },
+	  {
+	    name: 'Flatout!',
+	    url: 'https://flatout.com.br/',
+	  },
+	  {
+	    name: 'Animes',
+	    url: 'https://animesonlinecc.to/',
+	  },
+	  {
+	    name: 'Netflix',
+	    url: 'https://www.netflix.com/browse',
           },
         ],
       },
