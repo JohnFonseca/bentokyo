@@ -56,10 +56,10 @@ export const config: Config = {
   autoFocusBar: true,
 
   // Greetings
-  greetingMorning: 'Bom dia, John! Dormiu bem?',
-	greetingAfternoon: 'Boa tarde, John! Como vai?',
-	greetingEvening: 'Boa noite, John! O dia foi bom?',
-	greetingNight: 'Durma bem, e bons sonhos, John.',
+  greetingMorning: 'Um ótimo dia, John',
+	greetingAfternoon: 'Uma tarde agradável',
+	greetingEvening: 'Uma bela noite, não?',
+	greetingNight: 'Bons sonhos, John',
   // Layout
   layout: 'bento', // 'bento', 'lists', 'buttons'
 
@@ -89,7 +89,7 @@ export const config: Config = {
   // Disabling the weather component may cause issues with location-based light/dark switching.
   componentsEnabled: {
     searchBar: false,
-    themeButton: true,
+    themeButton: false,
     clock: true,
     greeter: true,
     date: true,
