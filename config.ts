@@ -11,7 +11,7 @@ import { Config } from './src/types/config';
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: 'John',
+  name: '',
   openInNewTab: true,
   title: 'Bento',
 
@@ -24,7 +24,7 @@ export const config: Config = {
     // 'google' or 'local'
     source: 'google',
     // Font name, e.g. 'Roboto' (case sensitive)
-    name: 'Overpass',
+    name: 'Open Sans',
   },
 
   // Theme
@@ -59,7 +59,7 @@ export const config: Config = {
   greetingMorning: 'Bom dia, John! Dormiu bem?',
 	greetingAfternoon: 'Boa tarde, John! Como vai?',
 	greetingEvening: 'Boa noite, John! O dia foi bom?',
-	greetingNight: 'Bons sonhos, John. Durma bem.',
+	greetingNight: 'Durma bem, e bons sonhos, John.',
   // Layout
   layout: 'bento', // 'bento', 'lists', 'buttons'
 
@@ -69,7 +69,7 @@ export const config: Config = {
   weatherUnit: 'C', // 'F', 'C'
   language: 'pt_br', // More languages in https://openweathermap.org/current#multi
 
-  trackLocation: true, // Request location from the browser. If false, or location is denied, use the coordinates below.
+  trackLocation: false, // Request location from the browser. If false, or location is denied, use the coordinates below.
   defaultLatitude: '-22.6528',
   defaultLongitude: '-43.0406',
 
@@ -89,7 +89,7 @@ export const config: Config = {
   // Disabling the weather component may cause issues with location-based light/dark switching.
   componentsEnabled: {
     searchBar: false,
-    themeButton: true,
+    themeButton: false,
     clock: true,
     greeter: true,
     date: true,
