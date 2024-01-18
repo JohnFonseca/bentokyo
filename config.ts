@@ -89,7 +89,7 @@ export const config: Config = {
   // Disabling the weather component may cause issues with location-based light/dark switching.
   componentsEnabled: {
     searchBar: false,
-    themeButton: false,
+    themeButton: true,
     clock: true,
     greeter: true,
     date: true,
