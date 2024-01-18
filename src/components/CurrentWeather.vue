@@ -19,7 +19,7 @@ const formatDescription = () => {
     // Uppercase the first letter
     return desc.charAt(0).toUpperCase() + desc.slice(1);
   }
-  return 'Unknown';
+  return 'Sem sinal';
 };
 </script>
 
