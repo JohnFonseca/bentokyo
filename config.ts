@@ -24,11 +24,11 @@ export const config: Config = {
     // 'google' or 'local'
     source: 'google',
     // Font name, e.g. 'Roboto' (case sensitive)
-    name: 'Overpass',
+    name: 'Open Sans',
   },
 
   // Theme
-  theme: 'tokyo-night',
+  theme: 'bento',
 
   // Place a background image in ./src/assets/images/ and provide the file name.
   // Alternatively, provide a URL to an image. If the page is served over https, you may have issues loading images from insecure origins.
@@ -64,14 +64,14 @@ export const config: Config = {
   layout: 'bento', // 'bento', 'lists', 'buttons'
 
   // Weather
-  weatherKey: import.meta.env.VITE_API_KEY, // Set your OpenWeatherMap key in .env - Move the included .env.example to .env
+  weatherKey: import.meta.env.57214529446044c57711b87cd7ae05af, // Set your OpenWeatherMap key in .env - Move the included .env.example to .env
   weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
-  language: 'en', // More languages in https://openweathermap.org/current#multi
+  language: 'pt_br', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // Request location from the browser. If false, or location is denied, use the coordinates below.
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  defaultLatitude: '-22.6528',
+  defaultLongitude: '-43.0406',
 
   // Automatic theme switching:
   // "system" - Switches based on OS color preference
@@ -90,10 +90,10 @@ export const config: Config = {
   componentsEnabled: {
     searchBar: false,
     themeButton: false,
-    clock: false,
-    greeter: false,
-    date: false,
-    weather: false,
+    clock: true,
+    greeter: true,
+    date: true,
+    weather: true,
   },
 
   // Buttons
