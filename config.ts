@@ -24,7 +24,7 @@ export const config: Config = {
     // 'google' or 'local'
     source: 'google',
     // Font name, e.g. 'Roboto' (case sensitive)
-    name: 'Open Sans',
+    name: 'Overpass',
   },
 
   // Theme
@@ -56,10 +56,10 @@ export const config: Config = {
   autoFocusBar: true,
 
   // Greetings
-  greetingMorning: 'Bom dia,',
-	greetingAfternoon: 'Boa tarde,',
-	greetingEvening: 'Boa noite,',
-	greetingNight: 'Bons sonhos,',
+  greetingMorning: 'Bom dia, John! Dormiu bem?',
+	greetingAfternoon: 'Boa tarde, John! Como vai?',
+	greetingEvening: 'Boa noite, John! O dia foi bom?',
+	greetingNight: 'Bons sonhos, John. Durma bem.',
   // Layout
   layout: 'bento', // 'bento', 'lists', 'buttons'
 
@@ -89,7 +89,7 @@ export const config: Config = {
   // Disabling the weather component may cause issues with location-based light/dark switching.
   componentsEnabled: {
     searchBar: false,
-    themeButton: false,
+    themeButton: true,
     clock: true,
     greeter: true,
     date: true,
