@@ -1,0 +1,28 @@
+:root {
+  /* Light Colors  */
+
+  --background: #16161e; /* Background color */
+  --accent: #202437; /* Hover color */
+  --cards: #1a1b26; /* Cards color */
+
+  /* Fonts Color */
+  --fg: #565f89; /* Foreground color */
+  --sfg: #b5bad1; /* Sceondary Foreground color */
+
+  /* Image background  */
+  --imgcol: linear-gradient(rgba(56 60, 74, 0.85), rgba(56 60, 74, 0.85)); /* Filter color */
+
+  /* Dark Colors  */
+
+  --darkbackground: #16161e; /* Background color */
+  --darkaccent: #202437; /* Hover color */
+  --darkcards: #1a1b26; /* Cards color */
+
+  /* Fonts Color */
+  --darkfg: #565f89; /* Foreground color */
+  --darksfg: #b5bad1; /* Secondary Foreground color */
+
+  /* Image background  */
+  --darkimgcol: linear-gradient(rgba(56 60, 74, 0.85), rgba(56 60, 74, 0.85)); /* Filter color */
+}
+
