@@ -112,9 +112,9 @@ export const config: Config = {
         url: 'https://www.reddit.com/',
       },
       {
-        name: 'Outlook',
+        name: 'Proton',
         icon: 'envelope',
-        url: 'https://outlook.live.com/mail/0/',
+        url: 'https://mail.proton.me/u/0/inbox',
       },
       {
         name: 'Pinterest',
@@ -186,7 +186,7 @@ export const config: Config = {
 	  },
 	  {
 	    name: 'NCS',
-	    url: 'https://www.youtube.com/watch?v=MsSrIlOi81o',
+	    url: 'https://www.youtube.com/watch?v=oWW5TLrrbNo',
 	  },
           {
 	    name: 'Lofi',
